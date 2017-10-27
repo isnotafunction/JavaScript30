@@ -1,0 +1,63 @@
+body{
+  margin:0;
+  padding:0;
+  min-height: 100vh;
+  background-image: url("pic/rain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  font-family: sans-serif;
+}
+.screen{
+  height: 100vh;
+  background: rgba(56, 91, 101, 0.5);
+  z-index: 10;
+}
+.container{
+  color:#fff;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin:auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.keys{
+  height: 100px;
+  min-width:100px;
+  border:#7a6b0e 2px solid;
+  border-radius:5px;
+  margin: 10px;
+  align-content: center;
+  position: relative;
+  text-align: center;
+  background:rgba(0,0,0,0.3);
+  transition: all 0.07s;
+}
+
+.playing{
+  transform: scale(1.1);
+  border: #e5c710 3px solid;
+  box-shadow: 0 0 10px #ffc600;
+}
+
+kbd{
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/*span{
+  font-size: 11px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}*/
