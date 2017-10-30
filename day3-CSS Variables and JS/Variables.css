@@ -1,0 +1,29 @@
+body{
+  text-align: center;
+  background:#2D3D50;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.controls{
+  margin-bottom: 50px;
+}
+
+/*declaring variables on an element*/
+
+:root{
+  --base:#ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img{
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+.hl{
+  color:var(--base);
+}
