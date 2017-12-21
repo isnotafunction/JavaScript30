@@ -31,7 +31,7 @@ lastX = e.offsetX;
 lastY = e.offsetY;
 
 hue++
-if(ctx.lineWidth>=100 || ctx.lineWidth <=1){
+if(ctx.lineWidth>=250 || ctx.lineWidth <=1){
   direction = !direction;
 }
 if(direction){
